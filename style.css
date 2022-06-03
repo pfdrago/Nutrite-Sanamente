@@ -185,15 +185,17 @@ h2{
         grid-template-rows: 50% 50%;
         grid-template-columns: 100%;
         gap: 3rem;
+        padding-bottom: 7rem;
     }
 
     .sobremi-container img {
-        width: 50%;
+        width: 70%;
         margin: auto;
     }
 
     .sobremi-container p {
         font-size: 1rem;
+        
     }
 }
 /* Fin Sobre mí */
