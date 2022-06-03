@@ -179,6 +179,23 @@ h2{
     font-family: 'Overlock', cursive;
     color: #515151;
 }
+
+@media screen and (max-width: 991px) {
+    .sobremi-container .sobremi{
+        grid-template-rows: 50% 50%;
+        grid-template-columns: 100%;
+        gap: 3rem;
+    }
+
+    .sobremi-container img {
+        width: 50%;
+        margin: auto;
+    }
+
+    .sobremi-container p {
+        font-size: 1rem;
+    }
+}
 /* Fin Sobre mí */
 
 /* Servicios */
