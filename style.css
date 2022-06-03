@@ -27,7 +27,6 @@ html {
 /* Fin Formateo general */
 
 
-
 /* Header */
 /*
 .menu-container img {
@@ -82,11 +81,10 @@ html {
 
 header {
     background-color: #DCEBD7;
-}
-
-.menu-container {
-    display: flex;
-    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
 }
 
 .menu-container a{
@@ -129,6 +127,7 @@ h2{
     display: flex;
     align-items:flex-end;
     justify-content: center;
+    padding-top: 67px;
 }
 
 .banner-container img{
@@ -146,6 +145,12 @@ h2{
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     padding: 5px;
+}
+
+@media screen and (max-width: 991px) {
+    .banner-container .titulo {
+        font-size: 10px;
+    }
 }
 /* Fin Banner */
 
