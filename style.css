@@ -1,0 +1,316 @@
+/* Fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Open+Sans&display=swap');  /* Alegreya Sans Light 300 */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Open+Sans&family=Overlock&display=swap'); /*Overlock regular 400  */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');/* Cursiva Dancing Script */
+
+/* Formateo general */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+body {
+    background-color: rgb(247, 247, 247)
+}
+
+html {
+    scroll-behavior: smooth;
+}
+/* Fin Formateo general */
+
+
+
+/* Header */
+/*
+.menu-container img {
+    width: 60%;
+}
+
+.menu-container .logo {
+    width: 20%;
+}
+
+.menu-container{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+    top: 0;
+    transition: all 1s;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 15%);
+}
+
+.menu-container .menu {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+
+.menu-container ul{
+    display: flex;
+    align-items: center;
+}
+
+.menu-container .menu li a{
+    padding: 10px;
+    font-size: 24px;
+    color: #515151;
+    font-family: 'Overlock', cursive;
+}
+
+.menu-container a{
+    border-right: 1px solid black;
+}
+
+.menu-container .logo, .menu-container .turnos {
+    border: none;
+}
+
+.menu-container:hover{
+    transform: scale(1.1);
+}
+*/
+
+header {
+    background-color: #DCEBD7;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-container a{
+    padding: 10px;
+    margin: 0px 30px;
+    font-size: 24px;
+    color: #515151;
+    font-family: 'Overlock', cursive;
+}
+
+.menu-container ul {
+    background-color: #C5DDBD;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 5px;
+}
+
+
+/* Fin header */
+
+
+/* Main */
+/* Formateo general para titulos H2 */
+h2{
+    text-align: center;
+    margin: 20px 0;
+    background-color: #C5DDBD;
+    padding: 8px 0;
+    font-family: 'Overlock', cursive;
+    font-size: 38px;
+    color: #515151;
+}
+/* Fin Formateo general para titulos H2 */
+
+/* Banner */
+.banner-container {
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+}
+
+.banner-container img{
+    width: 100%;
+}
+
+.banner-container .titulo {
+    position: absolute;
+    margin-bottom: 10px;
+    font-family: 'Dancing Script', cursive;
+    background: rgba( 247, 191, 188, 0.55 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 5px;
+}
+/* Fin Banner */
+
+/* Sobre mí */
+.sobremi-container-inferior {
+    display: grid;
+    justify-items: center;
+}
+
+.sobremi-container .sobremi {
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    gap: 15px;
+    width: 80%;
+}
+
+.sobremi-container img {
+    width: 100%;
+    border-radius: 100%;
+}
+
+.sobremi-container p {
+    font-size: 25px;
+    font-family: 'Overlock', cursive;
+    color: #515151;
+}
+/* Fin Sobre mí */
+
+/* Servicios */
+.servicios-container-inferior {
+    display: grid;
+    justify-items: center;
+}
+
+.servicios-container .servicios {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    gap: 95px;
+    align-items: center;
+}
+
+.servicios-container img {
+    width: 100%;
+    border-radius: 5%;
+}
+
+.servicios-container p {
+    font-size: 35px;
+    font-family: 'Overlock', cursive;
+    color: #515151;
+}
+
+.servicios-container h3 {
+    font-size: 45px;
+    margin-bottom: 40px;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: #515151;
+}
+
+.servicios-container .servicios-descripcion {
+    display: grid;
+    justify-items: center;
+}
+/* Fin Servicios */
+
+/* Testimonios */
+.testimonios-container .testimonios {
+    display: flex;
+    justify-content: center;
+}
+
+.testimonios-container img {
+    width: 20.5%;
+    margin: 2px;
+}
+/* Fin Testimonios */
+
+/* Contacto */
+.contacto-container .contacto .myp {
+    width: 80%;
+    display: flex;
+}
+
+.contacto-container .contacto {
+    display: flex;
+    justify-content: center;
+}
+
+.contacto-container iframe {
+    width: 50%;
+    margin-right: 10px;
+}
+
+.contacto-container p{
+    width: 50%;
+    margin-left: 10px;
+    font-size: 25px;
+    font-family: 'Overlock', cursive;
+    color: #515151;
+}
+/* Fin Contacto */
+
+/* Footer */
+.footer-container {
+    display: flex;
+    justify-content: center;
+    background-color: #AED0A3;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+
+.footer-container ul {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-container i{
+    font-size: 36px;
+    color: #3c3c3c;
+    padding: 25%;
+    border-radius: 100%;
+    background-color: #F7BFBC;
+}
+/* Fin Footer */
+
+/* Turnos */
+.seccion-turnos {
+    padding-top: 80px;
+}
+.seccion-turnos h1 {
+    text-align: center;
+    margin: 20px 0;
+    background-color: #C5DDBD;
+    padding: 8px 0;
+    font-family: 'Overlock', cursive;
+    font-size: 38px;
+    color: #515151;
+}
+
+.turnos-container {
+    display: grid;
+    justify-items: center;
+}
+
+.turnos-container .turnos {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    align-items: center;
+    gap: 40px;
+}
+
+.turnos-container .turnos img {
+    width: 100%;
+}
+
+.turnos-container p{
+    font-size: 35px;
+    font-family: 'Overlock', cursive;
+    color: #515151;
+}
+/* Fin Turnos */
