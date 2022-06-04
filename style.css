@@ -293,7 +293,29 @@ h2{
     font-size: 25px;
     font-family: 'Overlock', cursive;
     color: #515151;
+    padding: 4rem 0;
 }
+
+@media screen and (max-width: 991px) {
+    .contacto-container .myp {
+        flex-direction: column;
+        padding-top: 3rem;
+    }
+
+    .contacto-container iframe {
+        width: 100%;
+    }
+
+    .contacto-container iframe {
+        height: 20rem;
+    }
+
+    .contacto-container p {
+        width: 100%;
+        text-align: center;
+    }
+}
+
 /* Fin Contacto */
 
 /* Footer */
