@@ -213,7 +213,7 @@ h2{
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-template-columns: 1fr;
         gap: 0;
-        width: 50%;
+        width: 60%;
         align-items: center;
     }
 
@@ -242,7 +242,7 @@ h2{
         justify-items: center;
     }
 }
-/* Servicios pantalla celular */
+/* Fin Servicios pantalla celular */
 
 /* Testimonios */
 .carrusel-container {
