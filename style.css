@@ -299,7 +299,7 @@ h2{
 @media screen and (max-width: 991px) {
     .contacto-container .myp {
         flex-direction: column;
-        padding-top: 3rem;
+        padding-top: 1rem;
     }
 
     .contacto-container iframe {
