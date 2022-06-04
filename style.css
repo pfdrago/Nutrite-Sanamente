@@ -24,57 +24,6 @@ html {
 
 
 /* Header */
-/*
-.menu-container img {
-    width: 60%;
-}
-
-.menu-container .logo {
-    width: 20%;
-}
-
-.menu-container{
-    display: flex;
-    justify-content: center;
-    position: fixed;
-    background-color: white;
-    z-index: 1;
-    top: 0;
-    transition: all 1s;
-    box-shadow: 0 2px 8px rgb(0 0 0 / 15%);
-}
-
-.menu-container .menu {
-    display: flex;
-    width: 70%;
-    justify-content: space-between;
-}
-
-.menu-container ul{
-    display: flex;
-    align-items: center;
-}
-
-.menu-container .menu li a{
-    padding: 10px;
-    font-size: 24px;
-    color: #515151;
-    font-family: 'Overlock', cursive;
-}
-
-.menu-container a{
-    border-right: 1px solid black;
-}
-
-.menu-container .logo, .menu-container .turnos {
-    border: none;
-}
-
-.menu-container:hover{
-    transform: scale(1.1);
-}
-*/
-
 header {
     background-color: #DCEBD7;
     position: fixed;
@@ -100,8 +49,6 @@ header {
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     padding: 5px;
 }
-
-
 /* Fin header */
 
 
@@ -301,6 +248,7 @@ h2{
 .carrusel-container {
     display: flex;
     justify-content: center;
+    /*padding: 6rem 0;*/
 }
 /* Fin Testimonios */
 
