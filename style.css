@@ -196,7 +196,7 @@ h2{
     }
 
     .sobremi-container img {
-        width: 70%;
+        width: 80%;
         margin: auto;
     }
 
@@ -207,7 +207,7 @@ h2{
 }
 /* Fin Sobre mí */
 
-/* Servicios */
+/* Servicios pantalla PC */
 .servicios-container-inferior {
     display: grid;
     justify-items: center;
@@ -217,7 +217,7 @@ h2{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr;
-    width: 90%;
+    width: 75%;
     gap: 95px;
     align-items: center;
 }
@@ -244,7 +244,62 @@ h2{
     display: grid;
     justify-items: center;
 }
-/* Fin Servicios */
+
+.servicios-container-celular {
+    display: none;
+}
+/* Fin servicios pantalla PC */
+
+/* Servicios antalla celular */
+@media screen and (max-width: 991px) {
+
+    .servicios-container{
+        display: none;
+    }
+
+    .servicios-container-celular{
+        display: grid;
+    }
+
+    .servicios-container-celular .servicios-container-inferior {
+        display: grid;
+        justify-items: center;
+    }
+
+    .servicios-container-celular .servicios {
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        gap: 0;
+        width: 50%;
+        align-items: center;
+    }
+
+    .servicios-container-celular h3 {
+        font-size: 20px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-family: 'Alegreya Sans', sans-serif;
+        color: #515151;
+    }
+
+    .servicios-container-celular p {
+        font-size: 1rem;
+        font-family: 'Overlock', cursive;
+        color: #515151;
+        padding-bottom: 5rem;
+    }
+
+    .servicios-container-celular img {
+        width: 100%;
+        border-radius: 5%;
+    }
+
+    .servicios-container-celular .servicios-descripcion {
+        display: grid;
+        justify-items: center;
+    }
+}
+/* Servicios antalla celular */
 
 /* Testimonios */
 .testimonios-container .testimonios {
