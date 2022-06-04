@@ -248,7 +248,26 @@ h2{
 .carrusel-container {
     display: flex;
     justify-content: center;
-    /*padding: 6rem 0;*/
+    padding: 6rem 0;
+}
+
+.carrusel-celular{
+    display: none;
+}
+
+@media screen and (max-width: 991px) {
+    .carrusel-pc{
+        display: none;
+    }
+
+    .carrusel-celular {
+        display: block;
+    }
+
+    .carrusel-container {
+        padding: 0;
+    }
+
 }
 /* Fin Testimonios */
 
