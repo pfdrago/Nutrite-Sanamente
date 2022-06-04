@@ -331,6 +331,7 @@ h2{
     width: 30%;
     display: flex;
     justify-content: space-around;
+    margin: auto;
 }
 
 .footer-container i{
@@ -339,6 +340,14 @@ h2{
     padding: 25%;
     border-radius: 100%;
     background-color: #F7BFBC;
+}
+
+@media screen and (max-width: 991px) {
+    .footer-container ul {
+        width: 100%;
+        padding-right: 2rem;
+    }
+
 }
 /* Fin Footer */
 
