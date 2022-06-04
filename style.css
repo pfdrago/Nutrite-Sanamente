@@ -17,10 +17,6 @@ li{
     list-style: none;
 }
 
-body {
-    background-color: rgb(247, 247, 247)
-}
-
 html {
     scroll-behavior: smooth;
 }
@@ -191,12 +187,12 @@ h2{
     .sobremi-container .sobremi{
         grid-template-rows: 50% 50%;
         grid-template-columns: 100%;
-        gap: 3rem;
-        padding-bottom: 7rem;
+        gap: 1rem;
+        padding-bottom: 4rem;
     }
 
     .sobremi-container img {
-        width: 80%;
+        width: 100%;
         margin: auto;
     }
 
@@ -250,7 +246,7 @@ h2{
 }
 /* Fin servicios pantalla PC */
 
-/* Servicios antalla celular */
+/* Servicios pantalla celular */
 @media screen and (max-width: 991px) {
 
     .servicios-container{
@@ -299,17 +295,12 @@ h2{
         justify-items: center;
     }
 }
-/* Servicios antalla celular */
+/* Servicios pantalla celular */
 
 /* Testimonios */
-.testimonios-container .testimonios {
+.carrusel-container {
     display: flex;
     justify-content: center;
-}
-
-.testimonios-container img {
-    width: 20.5%;
-    margin: 2px;
 }
 /* Fin Testimonios */
 
