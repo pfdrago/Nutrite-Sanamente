@@ -228,7 +228,6 @@ h2{
 
 /* Servicios pantalla celular */
 @media screen and (max-width: 991px) {
-
     .servicios-container{
         display: none;
     }
@@ -310,7 +309,6 @@ h2{
     .carrusel-container {
         padding: 0;
     }
-
 }
 /* Fin Testimonios */
 
@@ -390,7 +388,6 @@ h2{
         width: 100%;
         padding-right: 2rem;
     }
-
 }
 /* Fin Footer */
 
