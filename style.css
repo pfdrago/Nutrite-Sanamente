@@ -421,6 +421,9 @@ h2{
     .footer-turnos {
         position: relative;
     }
+    .turnos-container {
+        width: 90%;
+    }
 }
 
 .boton-form {
