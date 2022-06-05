@@ -57,6 +57,14 @@ header {
 .menu-container li {
     transition: all 1s;
 }
+
+header img:hover {
+    transform: scale(1.3)
+}
+
+header img {
+    transition: all 1s;
+}
 /* Fin header */
 
 
