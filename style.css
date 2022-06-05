@@ -105,12 +105,16 @@ h2{
     margin-bottom: 10px;
     font-family: 'Overlock', cursive;
     font-size: 30px;
-
+    padding: 5px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    background: rgba( 247, 191, 188, 0.70 );
 }
 
 @media screen and (max-width: 991px) {
     .banner-container .titulo {
-        font-size: 14px;
+        font-size: 12px;
+        margin-bottom: 5px;
+        padding: 1px;
     }
 }
 /* Fin Banner */
