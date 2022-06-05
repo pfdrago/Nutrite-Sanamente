@@ -82,8 +82,8 @@ h2{
 
 @media screen and (max-width: 991px) {
     h2 {
-        font-size: 1rem;
-        padding: 2px 0;
+        font-size: 1.6rem;
+        padding: 4px 0;
     }
 }
 /* Fin Formateo general para titulos H2 */
@@ -103,19 +103,14 @@ h2{
 .banner-container .titulo {
     position: absolute;
     margin-bottom: 10px;
-    font-family: 'Dancing Script', cursive;
-    background: rgba( 247, 191, 188, 0.55 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 3px );
-    -webkit-backdrop-filter: blur( 3px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-    padding: 5px;
+    font-family: 'Overlock', cursive;
+    font-size: 30px;
+
 }
 
 @media screen and (max-width: 991px) {
     .banner-container .titulo {
-        font-size: 10px;
+        font-size: 14px;
     }
 }
 /* Fin Banner */
