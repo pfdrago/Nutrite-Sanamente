@@ -136,6 +136,7 @@ h2 {
     grid-template-rows: 50% 50%;
     grid-template-columns: 100%;
     gap: 1rem;
+    grid-template-rows: repeat(2, auto);
     padding-bottom: 4rem;
   }
   .sobremi-container .sobremi img {
