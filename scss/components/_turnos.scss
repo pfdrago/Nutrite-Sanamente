@@ -1,0 +1,38 @@
+@import '../base/listas';
+@import '../base/extends';
+
+.seccion-turnos {
+    padding: 80px 0;
+    h1 {
+        text-align: center;
+        margin: 20px 0;
+        background-color: nth($colores, 2);
+        padding: 8px 0;
+        font-family: 'Overlock', cursive;
+        font-size: 38px;
+        color: nth($colores-texto, 1);
+    }
+    .turnos-container {
+        padding-top: 100px;
+        @extend %flex;
+    }
+    .boton-form {
+        background-color: nth($colores, 4);
+    }
+
+}
+.footer-turnos {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media screen and (max-width: 991px) {
+    .footer-turnos {
+        position: relative;
+    }
+    .turnos-container {
+        width: 90%;
+    }
+}
+

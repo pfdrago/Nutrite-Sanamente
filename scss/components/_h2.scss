@@ -1,0 +1,18 @@
+@import '../base/listas';
+
+h2{
+    text-align: center;
+    margin: 20px 0;
+    background-color: nth($colores, 2);
+    padding: 8px 0;
+    font-family: 'Overlock', cursive;
+    font-size: nth($encabezados, 4);
+    color: nth($colores-texto, 1);
+    font-weight: 700;
+}
+@media screen and (max-width: 991px) {
+    h2 {
+        font-size: 1.6rem;
+        padding: 4px 0;
+    }
+}

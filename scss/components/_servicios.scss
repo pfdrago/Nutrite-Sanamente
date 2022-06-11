@@ -1,0 +1,103 @@
+@import '../base/listas';
+
+.servicios-container-inferior {
+    display: grid;
+    justify-items: center;
+}
+
+.servicios-container .servicios {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    width: 75%;
+    gap: 95px;
+    align-items: center;
+}
+
+.servicios-container img {
+    width: 100%;
+    border-radius: 5%;
+}
+
+.servicios-container p {
+    font-size: nth($parrafos, 2);
+    font-family: 'Overlock', cursive;
+    color: nth($colores-texto, 1);
+}
+
+.servicios-container h3 {
+    font-size: nth($encabezados, 4);
+    margin-bottom: 40px;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: #515151;
+    font-weight: 600;
+}
+
+.servicios-container .servicios-descripcion {
+    display: grid;
+    justify-items: center;
+}
+
+.servicios-container-celular {
+    display: none;
+}
+
+.s-cel {
+    display: none;
+}
+
+@media screen and (max-width: 991px) {
+    .servicios-container{
+        display: none;
+    }
+
+    .servicios-container-celular{
+        display: grid;
+    }
+
+    .servicios-container-celular .servicios-container-inferior {
+        display: grid;
+        justify-items: center;
+    }
+
+    .servicios-container-celular .servicios {
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        gap: 0;
+        width: 70%;
+        align-items: center;
+    }
+
+    .servicios-container-celular h3 {
+        font-size: nth($encabezados, 3);
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-family: 'Alegreya Sans', sans-serif;
+        color: #515151;
+        font-weight: 700;
+    }
+
+    .servicios-container-celular p {
+        font-size: nth($parrafos, 1);
+        font-family: 'Overlock', cursive;
+        color: nth($colores-texto, 1);
+        padding-bottom: 5rem;
+    }
+
+    .servicios-container-celular img {
+        width: 100%;
+        border-radius: 5%;
+    }
+
+    .servicios-container-celular .servicios-descripcion {
+        display: grid;
+        justify-items: center;
+    }
+    .s-pc {
+        display: none;
+    }
+    
+    .s-cel {
+        display:inline ;
+    }
+}

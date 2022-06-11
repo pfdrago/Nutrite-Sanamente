@@ -1,0 +1,29 @@
+@import '../base/listas';
+@import '../base/extends';
+
+.footer-container {
+    @extend %flex;
+    background-color: nth($colores, 3);
+    padding: 15px 0;
+    margin-top: 20px;
+    ul {
+        width: 30%;
+        display: flex;
+        justify-content: space-around;
+        margin: auto;
+    }
+    i{
+        font-size: 36px;
+        color: nth($colores-texto, 2);
+        padding: 25%;
+        border-radius: 100%;
+        background-color: nth($colores, 4);
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .footer-container ul {
+        width: 100%;
+        padding-right: 2rem;
+    }
+}
