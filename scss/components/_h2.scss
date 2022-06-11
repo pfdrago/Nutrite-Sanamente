@@ -1,6 +1,6 @@
 @import '../base/listas';
 
-h2{
+h2 {
     text-align: center;
     margin: 20px 0;
     background-color: nth($colores, 2);
@@ -10,6 +10,7 @@ h2{
     color: nth($colores-texto, 1);
     font-weight: 700;
 }
+
 @media screen and (max-width: 991px) {
     h2 {
         font-size: 1.6rem;

@@ -47,11 +47,11 @@
 }
 
 @media screen and (max-width: 991px) {
-    .servicios-container{
+    .servicios-container {
         display: none;
     }
 
-    .servicios-container-celular{
+    .servicios-container-celular {
         display: grid;
     }
 
@@ -93,11 +93,12 @@
         display: grid;
         justify-items: center;
     }
+
     .s-pc {
         display: none;
     }
-    
+
     .s-cel {
-        display:inline ;
+        display: inline;
     }
 }

@@ -4,24 +4,27 @@
 .carrusel-container {
     @extend %flex;
     padding: 6rem 0;
-    .carousel-control-next-icon, .carousel-control-prev-icon {
+
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
         background-color: black;
         border-radius: 100%;
         opacity: 20%;
     }
 }
 
-.carrusel-celular{
+.carrusel-celular {
     display: none;
 }
 
 @media screen and (max-width: 991px) {
-    .carrusel-pc{
+    .carrusel-pc {
         display: none;
     }
 
     .carrusel-container {
         padding: 0;
+
         .carrusel-celular {
             display: block;
         }

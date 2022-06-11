@@ -3,6 +3,7 @@
 
 .seccion-turnos {
     padding: 80px 0;
+
     h1 {
         text-align: center;
         margin: 20px 0;
@@ -12,15 +13,18 @@
         font-size: 38px;
         color: nth($colores-texto, 1);
     }
+
     .turnos-container {
         padding-top: 100px;
         @extend %flex;
     }
+
     .boton-form {
         background-color: nth($colores, 4);
     }
 
 }
+
 .footer-turnos {
     position: fixed;
     bottom: 0;
@@ -31,8 +35,8 @@
     .footer-turnos {
         position: relative;
     }
+
     .turnos-container {
         width: 90%;
     }
 }
-

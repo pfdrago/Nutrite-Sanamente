@@ -3,22 +3,25 @@
 
 .banner-container {
     @extend %flex;
-    align-items:flex-end;
+    align-items: flex-end;
     padding-top: 62px;
-    img{
+
+    img {
         width: 100%;
     }
+
     .titulo {
         position: absolute;
         margin-bottom: 10px;
         font-family: 'Overlock', cursive;
         font-size: nth($encabezados, 2);
         padding: 5px;
-        border: 1px solid rgba( 255, 255, 255, 0.18 );
-        background: rgba( 247, 191, 188, 0.70 );
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        background: rgba(247, 191, 188, 0.70);
         margin-left: 50px;
     }
 }
+
 @media screen and (max-width: 991px) {
     .banner-container .titulo {
         font-size: nth($encabezados, 1);
