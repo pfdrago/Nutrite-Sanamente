@@ -1,12 +1,12 @@
-/* Fuentes */
+// Fuentes //
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Open+Sans&display=swap');
-/* Alegreya Sans Light 300 */
+// Alegreya Sans Light 300 //
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Open+Sans&family=Overlock&display=swap');
-/*Overlock regular 400  */
+// Overlock regular 400 //
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
-/* Cursiva Dancing Script */
+// Cursiva Dancing Script //
 
-/* Formateo general */
+// Formateo general //
 * {
     margin: 0;
     padding: 0;
@@ -23,8 +23,7 @@ li {
 html {
     scroll-behavior: smooth;
 }
-
-/* Fin Formateo general */
+// Fin Formateo general //
 
 
 @import 'components/header';

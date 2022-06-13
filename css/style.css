@@ -1,8 +1,6 @@
-/* Fuentes */
-@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Open+Sans&display=swap"); /* Alegreya Sans Light 300 */
-@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Open+Sans&family=Overlock&display=swap"); /*Overlock regular 400  */
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"); /* Cursiva Dancing Script */
-/* Formateo general */
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Open+Sans&family=Overlock&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -20,7 +18,6 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Fin Formateo general */
 header {
   background-color: #DCEBD7;
   position: fixed;
@@ -248,7 +245,8 @@ h2 {
 .carrusel-container {
   padding: 6rem 0;
 }
-.carrusel-container .carousel-control-next-icon, .carrusel-container .carousel-control-prev-icon {
+.carrusel-container .carousel-control-next-icon,
+.carrusel-container .carousel-control-prev-icon {
   background-color: black;
   border-radius: 100%;
   opacity: 20%;
