@@ -85,52 +85,27 @@
     <!-- Main -->
     <main class="seccion-turnos">
         <h1>Turnos</h1>
-        <div class="turnos-container">
-            <nav class="turnos">
-                <div class="row">
-                    <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Nombre</label>
-                    <div class="col-sm-10">
-                        <input type="email" class="form-control form-control-lg" id="colFormLabelLg">
-                    </div>
-                </div>
-                <div class="row">
-                    <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Apellido</label>
-                    <div class="col-sm-10">
-                        <input type="email" class="form-control form-control-lg" id="colFormLabelLg">
-                    </div>
-                </div>
-                <div class="row">
-                    <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Correo
-                        Electronico</label>
-                    <div class="col-sm-10">
-                        <input type="email" class="form-control form-control-lg" id="colFormLabelLg">
-                    </div>
-                </div>
-                <div class="row">
-                    <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Teléfono</label>
-                    <div class="col-sm-10">
-                        <input type="email" class="form-control form-control-lg" id="colFormLabelLg">
-                    </div>
-                </div>
-                <div class="row">
-                    <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Edad</label>
-                    <div class="col-sm-10">
-                        <input type="email" class="form-control form-control-lg" id="colFormLabelLg">
-                    </div>
-                </div>
-                <div class="row">
-                    <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Consulta</label>
-                    <div class="col-sm-10">
-                        <input type="email" class="form-control form-control-lg" id="colFormLabelLg">
-                    </div>
-                </div>
-                <div class="col-auto">
-                    <button type="submit" class="btn boton-form">Enviar</button>
-                </div>
-                </form>
-            </nav>
-        </div>
-    </main>
+        <form action="form.php" method="POST" class="formulario">
+            <div class="form-row">
+                <label for="full-name">Nombre y Apellido</label>
+                <input id="full-name" name="name" type="text">
+            </div>
+
+            <div class="form-row">
+                <label for="email">mail</label>
+                <input id="email" name="email" type="imail">
+            </div>
+
+            <div class="form-row">
+                <label for="abstract">Dejame tu consulta</label>
+                <textarea name="textarea" id="abstract"></textarea>
+            </div>
+
+            <div class="form-row">
+                <button>Enviar</button>
+            </div>
+
+        </form>
     <!-- Fin Main -->
 
     <!-- Footer -->

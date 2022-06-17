@@ -13,16 +13,6 @@
         font-size: 38px;
         color: nth($colores-texto, 1);
     }
-
-    .turnos-container {
-        padding-top: 100px;
-        @extend %flex;
-    }
-
-    .boton-form {
-        background-color: nth($colores, 4);
-    }
-
 }
 
 .footer-turnos {
@@ -34,9 +24,5 @@
 @media screen and (max-width: 991px) {
     .footer-turnos {
         position: relative;
-    }
-
-    .turnos-container {
-        width: 90%;
     }
 }

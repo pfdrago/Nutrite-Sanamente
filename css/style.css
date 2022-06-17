@@ -75,7 +75,7 @@ h2 {
     padding: 4px 0;
   }
 }
-.seccion-turnos .turnos-container, .footer-container, .contacto-container .contacto, .carrusel-container, .banner-container {
+.footer-container, .contacto-container .contacto, .carrusel-container, .banner-container {
   display: flex;
   justify-content: center;
 }
@@ -237,7 +237,7 @@ h2 {
     display: inline;
   }
 }
-.seccion-turnos .turnos-container, .footer-container, .contacto-container .contacto, .carrusel-container, .banner-container {
+.footer-container, .contacto-container .contacto, .carrusel-container, .banner-container {
   display: flex;
   justify-content: center;
 }
@@ -267,7 +267,7 @@ h2 {
     display: block;
   }
 }
-.seccion-turnos .turnos-container, .footer-container, .contacto-container .contacto, .banner-container, .carrusel-container {
+.footer-container, .contacto-container .contacto, .banner-container, .carrusel-container {
   display: flex;
   justify-content: center;
 }
@@ -307,7 +307,7 @@ h2 {
     margin: auto;
   }
 }
-.seccion-turnos .turnos-container, .footer-container, .banner-container, .carrusel-container, .contacto-container .contacto {
+.footer-container, .banner-container, .carrusel-container, .contacto-container .contacto {
   display: flex;
   justify-content: center;
 }
@@ -337,7 +337,7 @@ h2 {
     padding-right: 2rem;
   }
 }
-.seccion-turnos .turnos-container, .banner-container, .carrusel-container, .contacto-container .contacto, .footer-container {
+.banner-container, .carrusel-container, .contacto-container .contacto, .footer-container {
   display: flex;
   justify-content: center;
 }
@@ -354,12 +354,6 @@ h2 {
   font-size: 38px;
   color: #515151;
 }
-.seccion-turnos .turnos-container {
-  padding-top: 100px;
-}
-.seccion-turnos .boton-form {
-  background-color: #F7BFBC;
-}
 
 .footer-turnos {
   position: fixed;
@@ -370,9 +364,6 @@ h2 {
 @media screen and (max-width: 991px) {
   .footer-turnos {
     position: relative;
-  }
-  .turnos-container {
-    width: 90%;
   }
 }
 
