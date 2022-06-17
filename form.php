@@ -11,10 +11,10 @@ $mensaje .= "Mensaje: " . $_POST["textarea"] . " \r\n";
 $para = "msolcelis@gmail.com";
 $asunto = "Mensaje enviado a traves de la web";
 
+
+
+mail($para, $asunto, utf8_decode($mensaje));
+
 header("Location:tnx.html");
-
-mail($para, $asunto, utf8_decode($mensaje), $header);
-
-
 
 ?>
