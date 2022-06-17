@@ -2,7 +2,7 @@
 
 $nombre = $_POST["name"];
 $mail = $_POST["email"];
-$mail = $_POST["tel"];
+$tel = $_POST["tel"];
 $mensaje = $_POST["textarea"];
 
 $mensaje = "Mensaje enviado por " .$nombre .",\r\n";
