@@ -390,7 +390,7 @@ h2 {
   background-color: #DCEBD7;
 }
 .formulario-container .formulario .mensaje-form {
-  height: 150px;
+  height: 70px;
   background-color: #DCEBD7;
   border-left: 2px solid black;
   border-top: 2px solid black;
@@ -450,6 +450,9 @@ h2 {
   .tnx-container img {
     width: 70%;
   }
+}
+.disclaimer {
+  display: none;
 }
 
 /*# sourceMappingURL=style.css.map */
