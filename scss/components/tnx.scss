@@ -1,0 +1,39 @@
+@import '../base/listas';
+@import '../base/extends';
+
+.html-tnx {
+    background-color: beige;
+}
+
+.tnx-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    img {
+        width: 30%;
+    }
+
+    h1 {
+        text-align: center;
+        font-family: 'Alegreya Sans', sans-serif;
+        color: #515151;
+        font-weight: 600;
+        font-size: nth($encabezados, 4);
+        padding-top: 8rem;
+    }
+
+    .tnx-img {
+        display: flex;
+        justify-content: center;
+        padding-top: 3rem;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .tnx-container {
+        img {
+            width: 70%;
+        }
+    }
+}

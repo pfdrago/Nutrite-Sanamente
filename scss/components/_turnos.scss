@@ -15,14 +15,68 @@
     }
 }
 
+.formulario-container{
+    display: flex;
+    justify-content: center;
+    .formulario{
+        width: 40%;
+        border: 3px solid nth($colores, 3);
+        padding: 10px;
+        border-radius: 10px;
+        background-color: nth($colores, 2);
+        .form-row {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            padding-top: 0.7rem;
+            font-family: 'Alegreya Sans', sans-serif;
+            font-size: nth($encabezados, 2);
+            color: #515151;
+            font-weight: 600;
+        }
+        button{
+            margin-top: 1.5rem;
+            background-color: nth($colores, 4);
+            border-color: nth($colores, 4);
+            font-family: 'Alegreya Sans', sans-serif;
+            font-size: nth($encabezados, 2);
+            color: #515151;
+            font-weight: 600;
+        }
+        input{
+            background-color: nth($colores, 1);
+        }
+        .mensaje-form{
+            height: 150px;
+            background-color: nth($colores, 1);
+            border-left: 2px solid black;
+            border-top: 2px solid black;
+            border-bottom: 2px solid grey;
+            border-right: 2px solid grey;
+        }
+    }
+}
+
 .footer-turnos {
     position: fixed;
     bottom: 0;
     width: 100%;
 }
 
+
+
+
 @media screen and (max-width: 991px) {
+    .formulario-container{
+        .formulario{
+            width: 90%;
+            .mensaje-form{
+                height: 75px;
+            }
+        }
+    }
     .footer-turnos {
-        position: relative;
+        position: fixed;
     }
 }

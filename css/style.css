@@ -355,6 +355,49 @@ h2 {
   color: #515151;
 }
 
+.formulario-container {
+  display: flex;
+  justify-content: center;
+}
+.formulario-container .formulario {
+  width: 40%;
+  border: 3px solid #AED0A3;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #C5DDBD;
+}
+.formulario-container .formulario .form-row {
+  display: flex;
+  flex-direction: column;
+}
+.formulario-container .formulario label {
+  padding-top: 0.7rem;
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 24px;
+  color: #515151;
+  font-weight: 600;
+}
+.formulario-container .formulario button {
+  margin-top: 1.5rem;
+  background-color: #F7BFBC;
+  border-color: #F7BFBC;
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 24px;
+  color: #515151;
+  font-weight: 600;
+}
+.formulario-container .formulario input {
+  background-color: #DCEBD7;
+}
+.formulario-container .formulario .mensaje-form {
+  height: 150px;
+  background-color: #DCEBD7;
+  border-left: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid grey;
+  border-right: 2px solid grey;
+}
+
 .footer-turnos {
   position: fixed;
   bottom: 0;
@@ -362,8 +405,50 @@ h2 {
 }
 
 @media screen and (max-width: 991px) {
+  .formulario-container .formulario {
+    width: 90%;
+  }
+  .formulario-container .formulario .mensaje-form {
+    height: 75px;
+  }
   .footer-turnos {
-    position: relative;
+    position: fixed;
+  }
+}
+.banner-container, .carrusel-container, .contacto-container .contacto, .footer-container {
+  display: flex;
+  justify-content: center;
+}
+
+.html-tnx {
+  background-color: beige;
+}
+
+.tnx-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.tnx-container img {
+  width: 30%;
+}
+.tnx-container h1 {
+  text-align: center;
+  font-family: "Alegreya Sans", sans-serif;
+  color: #515151;
+  font-weight: 600;
+  font-size: 38px;
+  padding-top: 8rem;
+}
+.tnx-container .tnx-img {
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+}
+
+@media screen and (max-width: 991px) {
+  .tnx-container img {
+    width: 70%;
   }
 }
 
