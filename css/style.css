@@ -399,11 +399,6 @@ h2 {
   width: 98.5%;
 }
 
-/*.footer-turnos {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}*/
 .seccion-turnos-celular {
   display: none;
 }
@@ -461,9 +456,6 @@ h2 {
     width: 80%;
     border-radius: 50%;
   }
-  /*.footer-turnos {
-      position: relative;
-  }*/
 }
 .banner-container, .carrusel-container, .contacto-container .contacto, .footer-container {
   display: flex;

@@ -58,18 +58,9 @@
     }
 }
 
-
-/*.footer-turnos {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}*/
-
 .seccion-turnos-celular {
     display: none;
 }
-
-
 
 @media screen and (max-width: 991px) {
     .seccion-turnos {
@@ -133,8 +124,4 @@
             }
         }
     }
-
-    /*.footer-turnos {
-        position: relative;
-    }*/
 }
