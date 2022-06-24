@@ -2,12 +2,12 @@
 
 $nombre = $_POST["name"];
 $mail = $_POST["email"];
-$tel = $_POST["tel"];
+/*$tel = $_POST["tel"];*/
 $mensaje = $_POST["textarea"];
 
 $mensaje = "Mensaje enviado por " .$nombre ."\r\n";
 $mensaje .= "Su email es: " . $mail ." \r\n";
-$mensaje .= "Su numero celular es es: " . $tel ." \r\n";
+/*$mensaje .= "Su numero celular es es: " . $tel ." \r\n";*/
 $mensaje .= "Mensaje: " . $_POST["textarea"] . " \r\n";
 
 $para = "msolcelis@gmail.com";

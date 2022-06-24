@@ -343,59 +343,50 @@ h2 {
 }
 
 .seccion-turnos {
-  padding: 80px 0;
+  padding: 120px 0;
 }
-.seccion-turnos h1 {
-  text-align: center;
-  margin: 20px 0;
-  background-color: #C5DDBD;
-  padding: 8px 0;
-  font-family: "Overlock", cursive;
-  font-size: 38px;
-  color: #515151;
-}
-
-.formulario-container {
+.seccion-turnos .formulario-container {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
-.formulario-container .formulario {
-  width: 40%;
-  border: 3px solid #AED0A3;
-  padding: 10px;
-  border-radius: 10px;
-  background-color: #C5DDBD;
+.seccion-turnos .formulario-container img {
+  width: 65%;
+  border-radius: 50%;
 }
-.formulario-container .formulario .form-row {
+.seccion-turnos .formulario-container .img-turnos {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  width: 50%;
 }
-.formulario-container .formulario label {
-  padding-top: 0.7rem;
-  font-family: "Alegreya Sans", sans-serif;
-  font-size: 24px;
-  color: #515151;
-  font-weight: 600;
+.seccion-turnos .formulario-container .form-box {
+  width: 50%;
 }
-.formulario-container .formulario button {
-  margin-top: 1.5rem;
+.seccion-turnos .formulario-container .form-box p,
+.seccion-turnos .formulario-container .form-box h1 {
+  text-align: center;
+  padding-left: 145px;
+}
+.seccion-turnos .formulario-container .form-box h1 {
+  color: #F7BFBC;
+  font-size: 38px;
+  font-family: "Overlock", cursive;
+  font-weight: 700;
+}
+.seccion-turnos .formulario-container .form-box p {
+  color: #AED0A3;
+  font-size: 1.5rem;
+  font-family: "Overlock", cursive;
+}
+.seccion-turnos .formulario-container .form-box button {
+  margin-right: 14px;
   background-color: #F7BFBC;
-  border-color: #F7BFBC;
-  font-family: "Alegreya Sans", sans-serif;
-  font-size: 24px;
-  color: #515151;
-  font-weight: 600;
+  color: #3c3c3c;
+  border-color: grey;
+  margin-top: 10px;
 }
-.formulario-container .formulario input {
-  background-color: #DCEBD7;
-}
-.formulario-container .formulario .mensaje-form {
-  height: 70px;
-  background-color: #DCEBD7;
-  border-left: 2px solid black;
-  border-top: 2px solid black;
-  border-bottom: 2px solid grey;
-  border-right: 2px solid grey;
+.seccion-turnos .formulario-container .form-box .caja-form {
+  width: 98.5%;
 }
 
 .footer-turnos {
@@ -404,15 +395,16 @@ h2 {
   width: 100%;
 }
 
+.seccion-turnos-celular {
+  display: none;
+}
+
 @media screen and (max-width: 991px) {
-  .formulario-container .formulario {
-    width: 90%;
+  .seccion-turnos {
+    display: none;
   }
-  .formulario-container .formulario .mensaje-form {
-    height: 75px;
-  }
-  .footer-turnos {
-    position: fixed;
+  .seccion-turnos-celular {
+    display: flex;
   }
 }
 .banner-container, .carrusel-container, .contacto-container .contacto, .footer-container {

@@ -86,37 +86,85 @@
     <!-- Fin Header -->
 
     <!-- Main -->
+    <!-- Turnos Pantalla PC -->
     <main class="seccion-turnos">
-        <h1>Turnos</h1>
         <div class="formulario-container">
-            <form action="form.php" method="POST" class="formulario">
-                <div class="form-row">
-                    <label for="full-name">Nombre y Apellido</label>
-                    <input id="full-name" name="name" type="text">
+            <div class="form-box">
+                <div class="form-titulo">
+                <h1>Estemos en contacto</h1>
+                <p>Si tenes una consulta, idea, propuesta
+                    <br>
+                    o simplemente queres saludarme,
+                    <br>
+                    este es el espacio para hacerlo.</p>
                 </div>
-
-                <div class="form-row">
-                    <label for="email">E-mail</label>
-                    <input id="email" name="email" type="imail">
+            <form action="form.php" method="POST" class="row g-6 formulario">
+                <div class="row g-3 d-flex justify-content-end">
+                    <div class="col-md-5">
+                      <input name="name" type="text" class="form-control" placeholder="Nombre y Apellido" aria-label="First name">
+                    </div>
+                    <div class="col-md-5">
+                        <input name="email" type="text" class="form-control" placeholder="Email" aria-label="First name">
+                      </div>
                 </div>
-
-                <div class="form-row">
-                    <label for="tel">Celular</label>
-                    <input id="tel" name="tel" type="tel">
+                <div class="d-flex justify-content-end caja-form">
+                <div class="col-md-10">
+                    <label for="exampleFormControlTextarea1" class="form-label"></label>
+                    <textarea name="textarea" class="form-control" id="exampleFormControlTextarea1" rows="6" placeholder="Mensaje"></textarea>
+                  </div>
                 </div>
-
-                <div class="form-row">
-                    <label for="abstract">Mensaje</label>
-                    <textarea name="textarea" class="mensaje-form" id="abstract"></textarea>
+                <div class="col-12 d-flex justify-content-end ">
+                  <button type="submit" class="btn btn-primary">Enviar</button>
                 </div>
-
-                <div class="form-row">
-                    <button>Enviar</button>
-                </div>
-            </form>
+              </form>
+            </div>
+              <div class="img-turnos">
+              <img src="../imagenes/turnos/turnos.jpg" alt="">
+              </div>
         </div>
-        <!-- Fin Main -->
+        </main>
+        <!-- Fin Turnos Pantalla PC -->
 
+        <!-- Turnos Pantalla Celular -->
+        <main class="seccion-turnos-celular">
+            <div class="formulario-container">
+                <div class="form-box">
+                    <div class="form-titulo">
+                    <h1>Estemos en contacto</h1>
+                    <p>Si tenes una consulta, idea, propuesta
+                        <br>
+                        o simplemente queres saludarme,
+                        <br>
+                        este es el espacio para hacerlo.</p>
+                    </div>
+                <form action="form.php" method="POST" class="row g-6 formulario">
+                    <div class="row g-3 d-flex justify-content-end">
+                        <div class="col-md-5">
+                          <input name="name" type="text" class="form-control" placeholder="Nombre y Apellido" aria-label="First name">
+                        </div>
+                        <div class="col-md-5">
+                            <input name="email" type="text" class="form-control" placeholder="Email" aria-label="First name">
+                          </div>
+                    </div>
+                    <div class="d-flex justify-content-end caja-form">
+                    <div class="col-md-10">
+                        <label for="exampleFormControlTextarea1" class="form-label"></label>
+                        <textarea name="textarea" class="form-control" id="exampleFormControlTextarea1" rows="6" placeholder="Mensaje"></textarea>
+                      </div>
+                    </div>
+                    <div class="col-12 d-flex justify-content-end ">
+                      <button type="submit" class="btn btn-primary">Enviar</button>
+                    </div>
+                  </form>
+                </div>
+                  <div class="img-turnos">
+                  <img src="../imagenes/turnos/turnos.jpg" alt="">
+                  </div>
+            </div>
+            </main>
+        <!-- Fin Turnos Pantalla Celular -->
+
+        <!-- Fin Main -->
         <!-- Footer -->
         <footer id="contacto">
             <nav class="footer-container footer-turnos">
@@ -144,6 +192,7 @@
         <!-- Fin Footer -->
 
         <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+        
 </body>
 
 </html>
