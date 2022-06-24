@@ -65,16 +65,77 @@
     width: 100%;
 }
 
-.seccion-turnos-celular{
+.seccion-turnos-celular {
     display: none;
 }
+
+
 
 @media screen and (max-width: 991px) {
     .seccion-turnos {
         display: none;
     }
 
-    .seccion-turnos-celular{
+    .seccion-turnos-celular {
         display: flex;
+        padding-top: 120px;
+
+        .form-titulo {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+
+            h1 {
+                color: nth($colores, 4);
+                font-size: nth($encabezados, 4);
+                font-family: 'Overlock', cursive;
+                font-weight: 700;
+            }
+
+            p {
+                color: nth($colores, 3);
+                font-size: nth($parrafos, 2);
+                font-family: 'Overlock', cursive;
+            }
+        }
+
+        .form-container {
+            display: flex;
+            justify-content: center;
+
+            .formulario {
+                width: 80%;
+
+                button {
+                    margin-right: 11px;
+                    background-color: nth($colores, 4);
+                    color: nth($colores-texto, 2);
+                    border-color: grey;
+                    margin-top: 10px;
+
+                }
+
+                .caja-form {
+                    width: 98.2%;
+                    margin-top: -6px;
+                    margin-left: -3px;
+                }
+            }
+        }
+
+
+        .img-turnos {
+            display: flex;
+            justify-content: center;
+
+            img {
+                width: 80%;
+                border-radius: 50%;
+            }
+        }
+    }
+
+    .footer-turnos {
+        position: relative;
     }
 }

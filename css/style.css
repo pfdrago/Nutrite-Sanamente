@@ -144,6 +144,11 @@ h2 {
     font-size: 1rem;
   }
 }
+@media screen and (min-device-width: 500px) and (max-device-width: 991px) {
+  .sobremi-container .sobremi p {
+    font-size: 1.8rem;
+  }
+}
 .servicios-container-inferior {
   display: grid;
   justify-items: center;
@@ -235,6 +240,11 @@ h2 {
   }
   .s-cel {
     display: inline;
+  }
+}
+@media screen and (min-device-width: 500px) and (max-device-width: 991px) {
+  .servicios-container-celular p {
+    font-size: 1.8rem;
   }
 }
 .footer-container, .contacto-container .contacto, .carrusel-container, .banner-container {
@@ -405,6 +415,53 @@ h2 {
   }
   .seccion-turnos-celular {
     display: flex;
+    padding-top: 120px;
+  }
+  .seccion-turnos-celular .form-titulo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .seccion-turnos-celular .form-titulo h1 {
+    color: #F7BFBC;
+    font-size: 38px;
+    font-family: "Overlock", cursive;
+    font-weight: 700;
+  }
+  .seccion-turnos-celular .form-titulo p {
+    color: #AED0A3;
+    font-size: 1.5rem;
+    font-family: "Overlock", cursive;
+  }
+  .seccion-turnos-celular .form-container {
+    display: flex;
+    justify-content: center;
+  }
+  .seccion-turnos-celular .form-container .formulario {
+    width: 80%;
+  }
+  .seccion-turnos-celular .form-container .formulario button {
+    margin-right: 11px;
+    background-color: #F7BFBC;
+    color: #3c3c3c;
+    border-color: grey;
+    margin-top: 10px;
+  }
+  .seccion-turnos-celular .form-container .formulario .caja-form {
+    width: 98.2%;
+    margin-top: -6px;
+    margin-left: -3px;
+  }
+  .seccion-turnos-celular .img-turnos {
+    display: flex;
+    justify-content: center;
+  }
+  .seccion-turnos-celular .img-turnos img {
+    width: 80%;
+    border-radius: 50%;
+  }
+  .footer-turnos {
+    position: relative;
   }
 }
 .banner-container, .carrusel-container, .contacto-container .contacto, .footer-container {

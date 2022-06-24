@@ -27,14 +27,16 @@
         content="Reserva tu turno y comenza el cambio de hábitos para lograr una vida saludable. Te guio y acompaño en tu proceso brindándote herramientas para que puedas lograr tus objetivos">
     <meta property="og:locale" content="es_ES">
 
-    <!-- <meta property="og:url" content="">-->
-    <!-- <meta property="og:image" content="">-->
+    <meta property="og:image" content="../imagenes/logo.svg">
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
 
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/09d7513f9d.js" crossorigin="anonymous"></script>
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- Animate.Style -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
@@ -89,110 +91,123 @@
     <!-- Turnos Pantalla PC -->
     <main class="seccion-turnos">
         <div class="formulario-container">
-            <div class="form-box">
+            <div class="form-box" data-aos="fade-right">
                 <div class="form-titulo">
-                <h1>Estemos en contacto</h1>
-                <p>Si tenes una consulta, idea, propuesta
-                    <br>
-                    o simplemente queres saludarme,
-                    <br>
-                    este es el espacio para hacerlo.</p>
-                </div>
-            <form action="form.php" method="POST" class="row g-6 formulario">
-                <div class="row g-3 d-flex justify-content-end">
-                    <div class="col-md-5">
-                      <input name="name" type="text" class="form-control" placeholder="Nombre y Apellido" aria-label="First name">
-                    </div>
-                    <div class="col-md-5">
-                        <input name="email" type="text" class="form-control" placeholder="Email" aria-label="First name">
-                      </div>
-                </div>
-                <div class="d-flex justify-content-end caja-form">
-                <div class="col-md-10">
-                    <label for="exampleFormControlTextarea1" class="form-label"></label>
-                    <textarea name="textarea" class="form-control" id="exampleFormControlTextarea1" rows="6" placeholder="Mensaje"></textarea>
-                  </div>
-                </div>
-                <div class="col-12 d-flex justify-content-end ">
-                  <button type="submit" class="btn btn-primary">Enviar</button>
-                </div>
-              </form>
-            </div>
-              <div class="img-turnos">
-              <img src="../imagenes/turnos/turnos.jpg" alt="">
-              </div>
-        </div>
-        </main>
-        <!-- Fin Turnos Pantalla PC -->
-
-        <!-- Turnos Pantalla Celular -->
-        <main class="seccion-turnos-celular">
-            <div class="formulario-container">
-                <div class="form-box">
-                    <div class="form-titulo">
                     <h1>Estemos en contacto</h1>
-                    <p>Si tenes una consulta, idea, propuesta
+                    <p>Ponete en contacto conmigo
                         <br>
-                        o simplemente queres saludarme,
+                        y empecemos juntos el cambio
                         <br>
-                        este es el espacio para hacerlo.</p>
-                    </div>
+                        a una vida saludable.</p>
+                </div>
                 <form action="form.php" method="POST" class="row g-6 formulario">
                     <div class="row g-3 d-flex justify-content-end">
                         <div class="col-md-5">
-                          <input name="name" type="text" class="form-control" placeholder="Nombre y Apellido" aria-label="First name">
+                            <input name="name" type="text" class="form-control" placeholder="Nombre y Apellido"
+                                aria-label="First name">
                         </div>
                         <div class="col-md-5">
-                            <input name="email" type="text" class="form-control" placeholder="Email" aria-label="First name">
-                          </div>
+                            <input name="email" type="text" class="form-control" placeholder="Email"
+                                aria-label="First name">
+                        </div>
                     </div>
                     <div class="d-flex justify-content-end caja-form">
-                    <div class="col-md-10">
-                        <label for="exampleFormControlTextarea1" class="form-label"></label>
-                        <textarea name="textarea" class="form-control" id="exampleFormControlTextarea1" rows="6" placeholder="Mensaje"></textarea>
-                      </div>
+                        <div class="col-md-10">
+                            <label for="exampleFormControlTextarea1" class="form-label"></label>
+                            <textarea name="textarea" class="form-control" id="exampleFormControlTextarea1" rows="6"
+                                placeholder="Mensaje"></textarea>
+                        </div>
                     </div>
                     <div class="col-12 d-flex justify-content-end ">
-                      <button type="submit" class="btn btn-primary">Enviar</button>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
                     </div>
-                  </form>
-                </div>
-                  <div class="img-turnos">
-                  <img src="../imagenes/turnos/turnos.jpg" alt="">
-                  </div>
+                </form>
             </div>
-            </main>
-        <!-- Fin Turnos Pantalla Celular -->
+            <div class="img-turnos" data-aos="fade-left">
+                <img src="../imagenes/turnos/turnos.avif" alt="">
+            </div>
+        </div>
+    </main>
+    <!-- Fin Turnos Pantalla PC -->
 
-        <!-- Fin Main -->
-        <!-- Footer -->
-        <footer id="contacto">
-            <nav class="footer-container footer-turnos">
-                <ul>
-                    <li>
-                        <a href="https://wa.me/541164356115" target="_blank">
-                            <i class="fa-brands fa-whatsapp" title="Acceso al Whatsapp de la nutricionista"></i>
-                        </a>
-                    </li>
+    <!-- Turnos Pantalla Celular -->
+    <main class="seccion-turnos-celular">
+        <div class="formulario-container" data-aos="zoom-in">
+            <div class="form-box">
+                <div class="form-titulo">
+                    <h1>Estemos en contacto</h1>
+                    <p>Ponete en contacto conmigo
+                        <br>
+                        y empecemos juntos el cambio
+                        <br>
+                        a una vida saludable.</p>
+                </div>
+                <div class="form-container">
+                    <form action="form.php" method="POST" class="row g-6 formulario">
+                        <div class="row g-3 d-flex justify-content-center">
+                            <div class="col-md-6">
+                                <input name="name" type="text" class="form-control" placeholder="Nombre y Apellido"
+                                    aria-label="First name">
+                            </div>
+                            <div class="col-md-6">
+                                <input name="email" type="text" class="form-control" placeholder="Email"
+                                    aria-label="First name">
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center caja-form">
+                            <div class="col-12">
+                                <label for="exampleFormControlTextarea1" class="form-label"></label>
+                                <textarea name="textarea" class="form-control" id="exampleFormControlTextarea1" rows="6"
+                                    placeholder="Mensaje"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-12 d-flex justify-content-end ">
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="img-turnos">
+                <img src="../imagenes/turnos/turnos.avif" alt="">
+            </div>
+        </div>
+    </main>
+    <!-- Fin Turnos Pantalla Celular -->
 
-                    <li>
-                        <a href="https://www.instagram.com/nutrite.sanamente/" target="_blank">
-                            <i class="fa-brands fa-instagram" title="Acceso al Instagram de la nutricionista"></i>
-                        </a>
-                    </li>
+    <!-- Fin Main -->
+    <!-- Footer -->
+    <footer id="contacto">
+        <nav class="footer-container footer-turnos">
+            <ul>
+                <li>
+                    <a href="https://wa.me/541164356115" target="_blank">
+                        <i class="fa-brands fa-whatsapp" title="Acceso al Whatsapp de la nutricionista"></i>
+                    </a>
+                </li>
 
-                    <li>
-                        <a href="https://www.facebook.com/sanamente.nutrite" target="_blank">
-                            <i class="fa-brands fa-facebook" title="Acceso al Facebook de la nutricionista"></i>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </footer>
-        <!-- Fin Footer -->
+                <li>
+                    <a href="https://www.instagram.com/nutrite.sanamente/" target="_blank">
+                        <i class="fa-brands fa-instagram" title="Acceso al Instagram de la nutricionista"></i>
+                    </a>
+                </li>
 
-        <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
-        
+                <li>
+                    <a href="https://www.facebook.com/sanamente.nutrite" target="_blank">
+                        <i class="fa-brands fa-facebook" title="Acceso al Facebook de la nutricionista"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+    <!-- Fin Footer -->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 
 </html>
