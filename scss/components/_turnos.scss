@@ -104,26 +104,25 @@
             justify-content: center;
 
             .formulario {
+                display: flex;
+                justify-content: center;
                 width: 80%;
-
-                button {
-                    margin-right: 11px;
-                    background-color: nth($colores, 4);
-                    color: nth($colores-texto, 2);
-                    border-color: grey;
-                    margin-top: 10px;
-
-                }
 
                 .caja-form {
                     width: 98.2%;
                     margin-top: -6px;
                     margin-left: -3px;
                 }
+
+                button {
+                    margin-right: 8px;
+                    background-color: nth($colores, 4);
+                    color: nth($colores-texto, 2);
+                    border-color: grey;
+                    margin-top: 10px;
+                } 
             }
         }
-
-
         .img-turnos {
             display: flex;
             justify-content: center;

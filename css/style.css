@@ -438,19 +438,21 @@ h2 {
     justify-content: center;
   }
   .seccion-turnos-celular .form-container .formulario {
+    display: flex;
+    justify-content: center;
     width: 80%;
-  }
-  .seccion-turnos-celular .form-container .formulario button {
-    margin-right: 11px;
-    background-color: #F7BFBC;
-    color: #3c3c3c;
-    border-color: grey;
-    margin-top: 10px;
   }
   .seccion-turnos-celular .form-container .formulario .caja-form {
     width: 98.2%;
     margin-top: -6px;
     margin-left: -3px;
+  }
+  .seccion-turnos-celular .form-container .formulario button {
+    margin-right: 8px;
+    background-color: #F7BFBC;
+    color: #3c3c3c;
+    border-color: grey;
+    margin-top: 10px;
   }
   .seccion-turnos-celular .img-turnos {
     display: flex;
