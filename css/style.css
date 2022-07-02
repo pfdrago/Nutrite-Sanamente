@@ -332,11 +332,12 @@ h2 {
   display: flex;
   justify-content: space-around;
   margin: auto;
+  padding-left: 0;
 }
 .footer-container i {
   font-size: 36px;
   color: #3c3c3c;
-  padding: 25%;
+  padding: 0.4rem;
   border-radius: 100%;
   background-color: #F7BFBC;
 }
@@ -344,7 +345,6 @@ h2 {
 @media screen and (max-width: 991px) {
   .footer-container ul {
     width: 100%;
-    padding-right: 2rem;
   }
 }
 .banner-container, .carrusel-container, .contacto-container .contacto, .footer-container {
